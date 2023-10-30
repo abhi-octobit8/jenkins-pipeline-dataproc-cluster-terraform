@@ -7,7 +7,7 @@ resource "google_dataproc_cluster" "dataproc-cluster" {
   }
 
   cluster_config {
-    staging_bucket = "dataproc-staging-bucket"
+    #staging_bucket = "dataproc-staging-bucket"
 
     master_config {
       num_instances = 1
@@ -21,7 +21,7 @@ resource "google_dataproc_cluster" "dataproc-cluster" {
     worker_config {
       num_instances    = 2
       machine_type     = "e2-medium"
-      min_cpu_platform = "Intel Skylake"
+      #min_cpu_platform = "Intel Skylake"
       disk_config {
         boot_disk_size_gb = 30
         num_local_ssds    = 1
