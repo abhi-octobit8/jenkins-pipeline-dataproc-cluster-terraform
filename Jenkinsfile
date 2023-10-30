@@ -24,7 +24,7 @@ pipeline {
         stage('Terraform Apply') {
             steps {
                 // Apply the Terraform configuration to provision the Dataproc cluster
-                withCredentials([file(credentialsId: 'your-service-account-credentials-id', variable: 'GOOGLE_APPLICATION_CREDENTIALS')]) {
+                withCredentials([file(credentialsId: 'GOOGLE_APPLICATION_CREDENTIAL', variable: 'GOOGLE_APPLICATION_CREDENTIALS')]) {
                     bat "terraform apply -auto-approve"
                 }
             }
