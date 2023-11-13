@@ -33,6 +33,7 @@ pipeline {
         stage('Clean Up') {
             steps {
                 // If desired, you can add a stage to destroy the Dataproc cluster after use
+                input("Destroy dataproc cluster?")                
                 withCredentials([file(credentialsId: 'GOOGLE_APPLICATION_CREDENTIAL', variable: 'GOOGLE_APPLICATION_CREDENTIALS')]) {
                     bat "terraform destroy -auto-approve"
                 }
