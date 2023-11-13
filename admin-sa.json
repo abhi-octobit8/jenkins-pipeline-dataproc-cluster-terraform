@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "devops-training-402109",
+  "private_key_id": "a555185c408a9bf0c13055c96a8ea5cf1728d223",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCUblrG7G8AUKlP\nYja9qwbFjRMbv69Yaw9UArIzt8Zl2KxJHOp36jn9SmCLe7brd13p9p9mIeivyCmW\n3kTNCrR0MV+6cdRZsEuZwdUmiRq2IGBuzf2wD4YyxuBUO4gCNdZlcvKShPU6s7JP\nngWFcw7algRjBVyrE/ZfAwp63diGvdoqXWl0WdCmlWVt0kwTZEXyBICcMEOkOEcJ\nDAi7xyQ55Wgj0hnu+MSJ2TtuyfWhh7HYRqvJYcMlCaUECbmfzkMEWh9FJr5NhSFf\nfCpfuU6/WoEwXdG7Bo7vpVrHvKg9hlIVTS+1JE6vRXy2ikZOiemRlNf+niQtf+tp\nB6L9vF9VAgMBAAECggEAAg++BXJBoLJrz5CnbB8XCepb5KcgGhrp+jqCgBeG0xiU\nE2pzUuwJYEn9hJAh8yv4dEzD7h/Y3kL8WXUjQMV+E2bD3PTUxGZoovZobasV89Dj\ncWjPtfeiX0wF9JWJFLB+BEyLeKQyPJRoeoJ1snT//eJ7XK/aKdiuDxWdg26goby1\nurgBuSqnLe1zspBehhkIPnNhskTT0P9rMAurWTGggkW0xsXZL/EDSxUBxa0lHexf\nPKQuUA3rPeygMqDBO853rOZB6sL9nwol2b0UIqWZPf0GmjTLPO2jenGVJ0+VAsOB\ntJz/6kOFnYKHSqqJD9MgwDuIQawenBNO/YO53BX7twKBgQDEFRdLGQlVr3j53TEq\n4ODgH7pKsZwj5ImTHdpf9mNdzc6v6XYaAA2x9j/W0x76QpIE5MJbKNMCP+dVh28i\nCRSomQzgZG7KUyCGryalNDVGaP0XhjGCZaVG5zrSXw8v+0CRdalTU++siakFIvAj\ntbixuedWwvpZRhekXXxCedQhbwKBgQDByaaqK7eP/xHWiXBOxP1nxmG2zuN+W+mN\njtKbDFpGqVdfuD64dCz10mo0JBQboq8yZtp917fp8RWUYesW4OEA8/gZC0D52xQE\nIVEn86Q0+MXpplMy3VHmJ2rJaH2lkFXQBMC91HTabbtrpiIOfI7r9rJUUM8L1qfX\nmSywyQ8hewKBgHYmx0xnH6rT+y+ESxYtPxONyrEraIxwLz3IpUdhrepeEwcIxDNS\niO4NFdaajHX8GwR722kWpl8apohw/VQi6KHW511m5yNfB6Bgdgbh+KAerzK3l6md\nGgQpXNZalUoyOWvs3ETrtOXgZUpFDTJXU500CePLxRJ6G9Dcy/06b8pdAoGBALKc\nHZTyvjlmKxbFjlHLlpQzcJSBk4Q/SsBCRzLI69v88J80vfpceaQI0AJGzpG6HCgk\nTHV4gfaJUg51QazQkBHEy4KpsLWZipVT7+0Wzt5T/HYh6sUS4A11fyMrv8L9iVo1\nR0CvtRQt13Scpv8bJs+tjSfRY0PSENjSQTKf3eZJAoGAAXrW9hgJmcxVb3zzpKof\nxWlfWLU42J+VLwiKKi7iZGaogwb0KwMVuBCRUT4tg/SCyvzFsqOj1P0ZuXID+H8X\nwoK3rP4n2sJF4AGdcD2ZhieqqVqAZxCZNkKc7WwDiBSxS82cXlku1Vpa7MQ+ESy3\nXozW+P1d+BQxNFIfz6lYYPY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "admin-sa@devops-training-402109.iam.gserviceaccount.com",
+  "client_id": "113563221307983210885",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/admin-sa%40devops-training-402109.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
