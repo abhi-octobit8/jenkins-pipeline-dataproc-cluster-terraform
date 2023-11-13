@@ -15,6 +15,7 @@ resource "google_storage_bucket" "dataproc-bucket" {
   name                        = "${var.prefix}-dataproc-config"
   uniform_bucket_level_access = true
   location                    = var.region
+  force_destroy               = true
 }
 
 resource "google_storage_bucket_iam_member" "dataproc-member" {
