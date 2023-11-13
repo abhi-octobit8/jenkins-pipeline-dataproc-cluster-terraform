@@ -58,11 +58,5 @@ resource "google_dataproc_cluster" "mycluster" {
       image_version = "2.0.66-debian10"
     }
 
-    gce_cluster_config {
-      zone = "${var.region}-b"
-      subnetwork             = var.subnet_name
-      service_account        = google_service_account.dataproc-svc.email
-      service_account_scopes = ["cloud-platform"]
-    }
   }
 }
