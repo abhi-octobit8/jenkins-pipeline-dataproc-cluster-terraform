@@ -55,7 +55,3 @@ variable "region" {
     type = string
     default = "octo"
  }
-
- variable "subnet_name" {
-    default = "octo-subnet"
- }
